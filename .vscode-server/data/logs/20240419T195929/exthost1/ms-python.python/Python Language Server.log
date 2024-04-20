@@ -1,0 +1,19 @@
+2024-04-19 19:59:40.188 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-04-19 19:59:42.771 [info] [Info  - 19:59:42] (918) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-04-19 19:59:42.778 [info] [Info  - 19:59:42] (918) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-19 19:59:42.780 [info] [Info  - 19:59:42] (918) Starting service instance "mxet300_lab"
+2024-04-19 19:59:42.967 [info] [Info  - 19:59:42] (918) Setting pythonPath for service "mxet300_lab": "/usr/bin/python3"
+2024-04-19 19:59:42.968 [info] [Info  - 19:59:42] (918) Setting environmentName for service "mxet300_lab": "3.7.3 (global)"
+2024-04-19 19:59:43.100 [info] [Info  - 19:59:43] (918) Assuming Python version 3.7.3.final.0
+2024-04-19 19:59:43.837 [info] [Info  - 19:59:43] (918) Found 25 source files
+2024-04-19 19:59:45.552 [info] [Info  - 19:59:45] (918) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-19 19:59:45.552 [info] [Info  - 19:59:45] (918) Background analysis(1) started
+2024-04-19 19:59:47.257 [info] [Info  - 19:59:47] (918) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-19 19:59:47.258 [info] [Info  - 19:59:47] (918) Indexing(2) started
+2024-04-19 19:59:52.558 [info] [Info  - 19:59:52] (918) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (3576ms)
+2024-04-19 19:59:53.927 [info] [Info  - 19:59:53] (918) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/L2_speed_control.py (5768ms)
+2024-04-19 19:59:53.928 [info] [Info  - 19:59:53] (918) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/L2_speed_control.py (7394ms)
+2024-04-19 19:59:54.395 [info] [Info  - 19:59:54] (918) [IDX(2)] Long operation: scan packages file:///home/pi/mxet300_lab (7108ms)
+2024-04-19 19:59:54.396 [info] [Info  - 19:59:54] (918) scanned(2) 222 files over 1 exec env
+2024-04-19 20:00:00.686 [info] [Info  - 20:00:00] (918) indexed(2) 155 files over 1 exec env
+2024-04-19 20:00:01.569 [info] [Info  - 20:00:01] (918) Indexing finished(2).

@@ -1,0 +1,42 @@
+2024-02-22 08:47:15.048 [info] 
+
+
+
+
+2024-02-22 08:47:15.090 [info] Extension host agent started.
+2024-02-22 08:47:15.328 [info] [127.0.0.1][2a630cc6][ExtensionHostConnection] New connection established.
+2024-02-22 08:47:15.331 [info] [127.0.0.1][0669bd65][ManagementConnection] New connection established.
+2024-02-22 08:47:15.618 [info] [127.0.0.1][2a630cc6][ExtensionHostConnection] <959> Launched Extension Host Process.
+2024-02-22 08:52:15.098 [info] New EH opened, aborting shutdown
+2024-02-22 08:56:06.061 [info] [127.0.0.1][0669bd65][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-22 08:56:06.132 [info] [127.0.0.1][2a630cc6][ExtensionHostConnection] <959> Extension Host Process exited with code: 0, signal: null.
+2024-02-22 08:56:06.133 [info] Last EH closed, waiting before shutting down
+2024-02-22 08:56:14.322 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-02-22 08:56:14.322 [info] Cancelling previous shutdown timeout
+2024-02-22 08:56:14.437 [info] [127.0.0.1][e05fbf26][ManagementConnection] New connection established.
+2024-02-22 08:56:14.456 [info] [127.0.0.1][3da64076][ExtensionHostConnection] New connection established.
+2024-02-22 08:56:14.474 [info] [127.0.0.1][3da64076][ExtensionHostConnection] <4211> Launched Extension Host Process.
+2024-02-22 08:56:17.106 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/pi/.vscode-server/bin/903b1e9d8990623e3d7da1df3d33db3e42d80eda/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-02-22 09:01:14.327 [info] New EH opened, aborting shutdown
+2024-02-22 09:03:38.120 [info] [127.0.0.1][e05fbf26][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-02-22 09:03:38.212 [info] [127.0.0.1][3da64076][ExtensionHostConnection] <4211> Extension Host Process exited with code: 0, signal: null.
+2024-02-22 09:03:38.212 [info] Last EH closed, waiting before shutting down
+2024-02-22 09:03:44.019 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-02-22 09:03:44.020 [info] Cancelling previous shutdown timeout
+2024-02-22 09:03:44.148 [info] [127.0.0.1][52f57429][ManagementConnection] New connection established.
+2024-02-22 09:03:44.271 [info] [127.0.0.1][40aa8742][ExtensionHostConnection] New connection established.
+2024-02-22 09:03:44.299 [info] [127.0.0.1][40aa8742][ExtensionHostConnection] <6178> Launched Extension Host Process.
+2024-02-22 09:08:44.024 [info] New EH opened, aborting shutdown

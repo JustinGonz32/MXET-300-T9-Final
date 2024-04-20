@@ -1,0 +1,166 @@
+2024-04-18 11:26:58.787 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-18 11:26:58.787 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-18 11:26:58.787 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-04-18 11:26:58.787 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-18 11:26:58.787 [info] Experiment 'pythonTestAdapter' is active
+2024-04-18 11:26:58.787 [info] Default formatter is set to null for workspace /home/pi/mxet300_lab
+2024-04-18 11:26:58.787 [info] > hatch env show --json
+2024-04-18 11:26:58.787 [info] cwd: .
+2024-04-18 11:26:58.813 [info] > C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+2024-04-18 11:26:58.822 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-04-18 11:26:58.958 [info] > C:\Users\Justin\Anaconda3\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:26:58.965 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-18 11:27:00.982 [info] > C:\Users\Justin\Anaconda3\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:00.986 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-18 11:27:01.013 [info] > pyenv which python
+2024-04-18 11:27:01.013 [info] cwd: .
+2024-04-18 11:27:02.071 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-04-18 11:27:04.084 [info] Starting Pylance language server.
+2024-04-18 11:27:04.403 [info] Test server listening.
+2024-04-18 11:27:05.501 [info] > conda info --json
+2024-04-18 11:27:05.599 [info] Found: /bin/python --> /bin/python2.7
+2024-04-18 11:27:05.607 [info] Found: /bin/python2 --> /bin/python2.7
+2024-04-18 11:27:05.608 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-04-18 11:27:05.618 [info] Found: /bin/python3 --> /bin/python3.7
+2024-04-18 11:27:05.622 [info] Found: /bin/python3.7 --> /bin/python3.7
+2024-04-18 11:27:05.709 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-04-18 11:27:05.722 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-04-18 11:27:05.724 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-04-18 11:27:05.732 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-04-18 11:27:05.743 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-04-18 11:27:05.760 [info] Found: /usr/include/python3.7 --> /usr/include/python3.7m
+2024-04-18 11:27:05.832 [info] > /bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:05.874 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:05.890 [warning] [Error: Command failed: /bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-18 11:27:05.890 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-04-18 11:27:05.929 [info] > /bin/python ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:05.981 [info] > /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:06.102 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:06.120 [warning] [Error: Command failed: /usr/bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-18 11:27:06.120 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-04-18 11:27:06.157 [info] > /usr/bin/python ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:06.240 [info] > /usr/include/python3.7 -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:06.273 [error] [Error: Command failed: /usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.7: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at Socket.<anonymous> (node:internal/child_process:450:11)
+	at Socket.emit (node:events:517:28)
+	at Pipe.<anonymous> (node:net:350:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-18 11:27:08.301 [info] > /usr/include/python3.7 -I ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+2024-04-18 11:27:08.311 [error] [Error: Command failed: /usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.7: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:422:12)
+	at ChildProcess.emit (node:events:529:35)
+	at maybeClose (node:internal/child_process:1098:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:303:5)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1/python_files/interpreterInfo.py'
+}
+2024-04-18 11:28:13.214 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab
+2024-04-18 11:28:13.217 [info] Python interpreter path: /usr/bin/python3
+2024-04-18 11:28:28.415 [info] CreateEnv Trigger - Skipping for /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 11:28:28.516 [info] Send text to terminal: /usr/bin/python3 /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 11:28:28.636 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 11:30:04.101 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 11:33:24.022 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 11:33:58.531 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 11:35:19.490 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 11:36:32.939 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 11:37:19.523 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 11:40:08.975 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 11:41:46.400 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 11:42:07.975 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 11:55:08.392 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 11:57:23.080 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 11:57:26.612 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:00:36.907 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:02:45.577 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:04:06.308 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:07:34.968 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-04-18 12:12:35.065 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:13:29.979 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:14:49.715 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-04-18 12:16:05.468 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:21:00.323 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:21:37.440 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 12:27:07.740 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/shapeMotions.py

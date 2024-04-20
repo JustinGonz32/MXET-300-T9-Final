@@ -1,0 +1,36 @@
+*
+* Visual Studio Code Server
+*
+* By using the software, you agree to
+* the Visual Studio Code Server License Terms (https://aka.ms/vscode-server-license) and
+* the Microsoft Privacy Statement (https://privacy.microsoft.com/en-US/privacystatement).
+*
+Server bound to 127.0.0.1:37383 (IPv4)
+Extension host agent listening on 37383
+
+[08:52:33] 
+
+
+
+
+[08:52:33] Extension host agent started.
+[08:52:34] [127.0.0.1][3744dbb2][ManagementConnection] New connection established.
+[08:52:34] [127.0.0.1][a2028b64][ExtensionHostConnection] New connection established.
+[08:52:35] [127.0.0.1][a2028b64][ExtensionHostConnection] <1222> Launched Extension Host Process.
+[08:52:42] Getting Manifest... ms-python.python
+[08:52:43] Installing extension: ms-python.python
+[08:52:43] Getting Manifest... ms-python.debugpy
+[08:52:44] Installing extension: ms-python.debugpy ms-python.python
+[08:52:50] Extension signature is verified: ms-python.debugpy
+[08:52:53] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-armhf: ms-python.debugpy
+[08:52:53] Renamed to /home/pi/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-armhf
+[08:52:53] Extracting extension completed. ms-python.debugpy
+[08:53:03] Extension signature is verified: ms-python.python
+[08:53:14] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.python-2024.0.1: ms-python.python
+[08:53:16] Renamed to /home/pi/.vscode-server/extensions/ms-python.python-2024.0.1
+[08:53:16] Extracting extension completed. ms-python.python
+[08:53:16] Extension installed successfully: ms-python.debugpy
+[08:53:16] Extension installed successfully: ms-python.python
+[08:53:16] Marked extension as uninstalled ms-python.python-2023.22.1
+New EH opened, aborting shutdown
+[08:57:33] New EH opened, aborting shutdown

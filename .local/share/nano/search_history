@@ -1,0 +1,7 @@
+allow_remote_access
+c.NotebookApp.allow_remote_access
+c.NotebookApp.port
+c.NotebookApp.open_browser
+
+
+

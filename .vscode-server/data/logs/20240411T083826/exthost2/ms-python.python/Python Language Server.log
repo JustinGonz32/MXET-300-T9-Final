@@ -1,0 +1,30 @@
+2024-04-11 08:41:46.323 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-04-11 08:41:48.727 [info] [Info  - 08:41:48] (1416) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-04-11 08:41:48.729 [info] [Info  - 08:41:48] (1416) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-11 08:41:48.731 [info] [Info  - 08:41:48] (1416) Starting service instance "basics"
+2024-04-11 08:41:48.986 [info] [Info  - 08:41:48] (1416) Setting pythonPath for service "basics": "/usr/bin/python3"
+2024-04-11 08:41:48.987 [info] [Info  - 08:41:48] (1416) Setting environmentName for service "basics": "3.7.3 (global)"
+2024-04-11 08:41:49.120 [info] [Info  - 08:41:49] (1416) Assuming Python version 3.7.3.final.0
+2024-04-11 08:41:49.758 [info] [Info  - 08:41:49] (1416) Found 23 source files
+2024-04-11 08:41:51.515 [info] [Info  - 08:41:51] (1416) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-11 08:41:51.529 [info] [Info  - 08:41:51] (1416) Background analysis(1) started
+2024-04-11 08:41:52.546 [info] [Info  - 08:41:52] (1416) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-11 08:41:52.547 [info] [Info  - 08:41:52] (1416) Indexing(2) started
+2024-04-11 08:41:59.317 [info] [Info  - 08:41:59] (1416) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (4059ms)
+2024-04-11 08:42:00.314 [info] [Info  - 08:42:00] (1416) [IDX(2)] Long operation: scan packages file:///home/pi/mxet300_lab/basics (7732ms)
+2024-04-11 08:42:00.316 [info] [Info  - 08:42:00] (1416) scanned(2) 222 files over 1 exec env
+2024-04-11 08:42:00.892 [info] [Info  - 08:42:00] (1416) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/Final.py (6737ms)
+2024-04-11 08:42:00.893 [info] [Info  - 08:42:00] (1416) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/Final.py (8402ms)
+2024-04-11 08:42:09.855 [info] [Info  - 08:42:09] (1416) [IDX(2)] Long operation: indexing: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist/typeshed-fallback/stubs/networkx/networkx/__init__.pyi (2070ms)
+2024-04-11 08:42:17.364 [info] [Info  - 08:42:17] (1416) [IDX(2)] Long operation: index execution environment file:///home/pi/mxet300_lab/basics (10742ms)
+2024-04-11 08:42:17.502 [info] [Info  - 08:42:17] (1416) [IDX(2)] Long operation: index packages file:///home/pi/mxet300_lab/basics (10934ms)
+2024-04-11 08:42:17.503 [info] [Info  - 08:42:17] (1416) indexed(2) 155 files over 1 exec env
+2024-04-11 08:42:18.483 [info] [Info  - 08:42:18] (1416) Indexing finished(2).
+2024-04-11 08:43:02.834 [info] [Info  - 08:43:02] (1416) Found 24 source files
+2024-04-11 08:43:06.158 [info] [Info  - 08:43:06] (1416) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (2160ms)
+2024-04-11 08:43:07.051 [info] [Info  - 08:43:07] (1416) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/Final.py (3439ms)
+2024-04-11 08:43:07.052 [info] [Info  - 08:43:07] (1416) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/Final.py (4097ms)
+2024-04-11 08:59:56.405 [info] [Info  - 08:59:56] (1416) [FG] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (2746ms)
+2024-04-11 09:06:37.116 [info] [Info  - 09:06:37] (1416) Found 25 source files
+2024-04-11 09:06:41.030 [info] [Info  - 09:06:41] (1416) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/Final.py (3317ms)
+2024-04-11 09:06:41.031 [info] [Info  - 09:06:41] (1416) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/Final.py (3889ms)

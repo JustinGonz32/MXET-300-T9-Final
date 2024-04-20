@@ -1,0 +1,3 @@
+2024-04-18 11:25:54.270 [error] node #1: https://az764295.vo.msecnd.net/extensions/marketplace.json - error GET getaddrinfo EAI_AGAIN az764295.vo.msecnd.net
+2024-04-18 11:25:55.576 [error] node #2: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+2024-04-18 11:26:08.920 [error] node #3: https://mobile.events.data.microsoft.com/OneCollector/1.0?cors=true&content-type=application/x-json-stream - error POST getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com

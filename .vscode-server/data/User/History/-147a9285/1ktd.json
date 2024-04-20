@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "C:\\Users\\Justin\\Anaconda3\\pythonw.exe",
+    "window.zoomLevel": 1,
+    "remote.SSH.remotePlatform": {
+        "192.168.1.115": "linux",
+        "169.254.83.141": "linux"
+    },
+    "python.defaultInterpreterPath": "C:\\Users\\Justin\\Anaconda3\\python.exe"
+}

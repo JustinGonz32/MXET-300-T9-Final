@@ -1,0 +1,330 @@
+2024-03-21 08:48:32.819 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-03-21 08:48:32.819 [info] Experiment 'pythonREPLSmartSend' is active
+2024-03-21 08:48:32.819 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-03-21 08:48:32.819 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-03-21 08:48:32.820 [info] Experiment 'pythonTestAdapter' is active
+2024-03-21 08:48:32.820 [info] Default formatter is set to null for workspace /home/pi/mxet300_lab/basics
+2024-03-21 08:48:32.820 [info] Test server listening.
+2024-03-21 08:48:32.927 [info] > C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+2024-03-21 08:48:32.950 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-03-21 08:48:33.087 [info] > C:\Users\Justin\Anaconda3\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 08:48:33.115 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 08:48:33.199 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-21 08:48:33.199 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2024-03-21 08:48:33.201 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-21 08:48:33.201 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-21 08:48:33.201 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2024-03-21 08:48:35.149 [info] > C:\Users\Justin\Anaconda3\python.exe -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 08:48:35.155 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 08:48:36.245 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-03-21 08:48:38.432 [info] Starting Pylance language server.
+2024-03-21 08:51:16.490 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 08:51:50.173 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 08:51:51.476 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 08:53:54.744 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:09:07.106 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:14:58.178 [info] > conda info --json
+2024-03-21 09:14:58.227 [info] Found: /bin/python --> /bin/python2.7
+2024-03-21 09:14:58.231 [info] Found: /bin/python2 --> /bin/python2.7
+2024-03-21 09:14:58.231 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-03-21 09:14:58.235 [info] Found: /bin/python3 --> /bin/python3.7
+2024-03-21 09:14:58.236 [info] Found: /bin/python3.7 --> /bin/python3.7
+2024-03-21 09:14:58.267 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-03-21 09:14:58.273 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-03-21 09:14:58.274 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-03-21 09:14:58.279 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-03-21 09:14:58.281 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-03-21 09:14:58.288 [error] [
+  'Failed to capture telemetry, Class name = y, completed in 17ms, has a falsy return value, Arg 1: "fish", Arg 2: "PYTHON_INTERPRETER_ACTIVATION_FOR_RUNNING_CODE", Arg 3: undefined, Arg 4: {}, Return Value: undefined',
+  [Error: /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json: ENOENT: no such file or directory, open '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  	at Object.openSync (node:fs:605:3)
+  	at Object.readFileSync (node:fs:473:35)
+  	at Object.readFileSync (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:1867817)
+  	at c (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:670952)
+  	at p (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:671348)
+  	at y.sendTelemetry (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:253992)] {
+    errno: -2,
+    syscall: 'open',
+    code: 'ENOENT',
+    path: '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  }
+]
+2024-03-21 09:14:58.291 [error] [
+  'getActivatedEnvironmentVariables, Class name = k, completed in 32ms, has a falsy return value, Arg 1: <Uri:/home/pi/mxet300_lab/basics>, Arg 2: undefined, Arg 3: undefined, Arg 4: "/usr/bin/fish"',
+  [Error: /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json: ENOENT: no such file or directory, open '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  	at Object.openSync (node:fs:605:3)
+  	at Object.readFileSync (node:fs:473:35)
+  	at Object.readFileSync (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:1867817)
+  	at c (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:670952)
+  	at p (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:671348)
+  	at /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:393614] {
+    errno: -2,
+    syscall: 'open',
+    code: 'ENOENT',
+    path: '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  }
+]
+2024-03-21 09:14:58.291 [error] Failed to apply terminal env vars undefined [Error: /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json: ENOENT: no such file or directory, open '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+	at Object.openSync (node:fs:605:3)
+	at Object.readFileSync (node:fs:473:35)
+	at Object.readFileSync (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:1867817)
+	at c (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:670952)
+	at p (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:671348)
+	at /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:393614] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+}
+2024-03-21 09:14:58.297 [info] Found: /usr/include/python3.7 --> /usr/include/python3.7m
+2024-03-21 09:14:58.365 [info] > /bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.379 [warning] [Error: Command failed: /bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:14:58.379 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-03-21 09:14:58.409 [info] > /bin/python ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.466 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.473 [error] [Error: Command failed: /bin/python /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/python: can't open file '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py': [Errno 2] No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:14:58.524 [info] > /usr/bin/python -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.538 [warning] [Error: Command failed: /usr/bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+Unknown option: -I
+usage: /usr/bin/python [option] ... [-c cmd | -m mod | file | -] [arg] ...
+Try `python -h' for more information.
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:14:58.538 [error] Support for Python 2.7 has been dropped by the Python extension so certain features may not work, upgrade to using Python 3.
+2024-03-21 09:14:58.561 [info] > /usr/bin/python ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.572 [error] [Error: Command failed: /bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/python3: can't open file '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py': [Errno 2] No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:14:58.614 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.619 [error] [Error: Command failed: /usr/bin/python /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/usr/bin/python: can't open file '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py': [Errno 2] No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:14:58.666 [info] > /usr/include/python3.7 -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:14:58.675 [error] [Error: Command failed: /usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.7: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:14:58.728 [error] [Error: Command failed: /usr/bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/usr/bin/python3: can't open file '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py': [Errno 2] No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:15:00.590 [info] > /bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:15:00.660 [error] [Error: Command failed: /bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/python3: can't open file '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py': [Errno 2] No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:15:00.693 [info] > /usr/include/python3.7 -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:15:00.698 [error] [Error: Command failed: /usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/bin/sh: 1: /usr/include/python3.7: Permission denied
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at ChildProcess._handle.onexit (node:internal/child_process:302:5)] {
+  code: 126,
+  killed: false,
+  signal: null,
+  cmd: '/usr/include/python3.7 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:15:00.746 [info] > /usr/bin/python3 -I ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py ~/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+2024-03-21 09:15:00.887 [error] [Error: Command failed: /usr/bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py
+/usr/bin/python3: can't open file '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py': [Errno 2] No such file or directory
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 2,
+  killed: false,
+  signal: null,
+  cmd: '/usr/bin/python3 -I /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/get_output_via_markers.py /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/pythonFiles/interpreterInfo.py'
+}
+2024-03-21 09:15:38.603 [info] Found: /bin/python --> /bin/python2.7
+2024-03-21 09:15:38.606 [info] Found: /bin/python2 --> /bin/python2.7
+2024-03-21 09:15:38.609 [info] Found: /bin/python2.7 --> /bin/python2.7
+2024-03-21 09:15:38.617 [info] Found: /bin/python3 --> /bin/python3.7
+2024-03-21 09:15:38.618 [info] Found: /bin/python3.7 --> /bin/python3.7
+2024-03-21 09:15:38.673 [info] Found: /usr/bin/python --> /usr/bin/python2.7
+2024-03-21 09:15:38.679 [info] Found: /usr/bin/python2 --> /usr/bin/python2.7
+2024-03-21 09:15:38.680 [info] Found: /usr/bin/python2.7 --> /usr/bin/python2.7
+2024-03-21 09:15:38.683 [error] [
+  'Failed to capture telemetry, Class name = y, completed in 15ms, has a falsy return value, Arg 1: "fish", Arg 2: "PYTHON_INTERPRETER_ACTIVATION_FOR_RUNNING_CODE", Arg 3: undefined, Arg 4: {}, Return Value: undefined',
+  [Error: /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json: ENOENT: no such file or directory, open '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  	at Object.openSync (node:fs:605:3)
+  	at Object.readFileSync (node:fs:473:35)
+  	at Object.readFileSync (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:1867817)
+  	at c (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:670952)
+  	at p (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:671348)
+  	at y.sendTelemetry (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:253992)] {
+    errno: -2,
+    syscall: 'open',
+    code: 'ENOENT',
+    path: '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  }
+]
+2024-03-21 09:15:38.686 [error] [
+  'getActivatedEnvironmentVariables, Class name = k, completed in 59ms, has a falsy return value, Arg 1: <Uri:/home/pi/mxet300_lab/basics>, Arg 2: undefined, Arg 3: undefined, Arg 4: "/usr/bin/fish"',
+  [Error: /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json: ENOENT: no such file or directory, open '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  	at Object.openSync (node:fs:605:3)
+  	at Object.readFileSync (node:fs:473:35)
+  	at Object.readFileSync (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:1867817)
+  	at c (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:670952)
+  	at p (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:671348)
+  	at /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:393614] {
+    errno: -2,
+    syscall: 'open',
+    code: 'ENOENT',
+    path: '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+  }
+]
+2024-03-21 09:15:38.686 [error] Failed to apply terminal env vars undefined [Error: /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json: ENOENT: no such file or directory, open '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+	at Object.openSync (node:fs:605:3)
+	at Object.readFileSync (node:fs:473:35)
+	at Object.readFileSync (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:1867817)
+	at c (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:670952)
+	at p (/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:671348)
+	at /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/out/client/extension.js:2:393614] {
+  errno: -2,
+  syscall: 'open',
+  code: 'ENOENT',
+  path: '/home/pi/.vscode-server/extensions/ms-python.python-2024.2.0/package.json'
+}
+2024-03-21 09:15:38.689 [info] Found: /usr/bin/python3 --> /usr/bin/python3.7
+2024-03-21 09:15:38.690 [info] Found: /usr/bin/python3.7 --> /usr/bin/python3.7
+2024-03-21 09:15:38.709 [info] Found: /usr/include/python3.7 --> /usr/include/python3.7m
+2024-03-21 09:21:32.434 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:21:34.918 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:26:21.489 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:26:32.614 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:29:25.781 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:32:32.596 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:34:05.084 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 09:40:52.313 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-21 10:09:08.440 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py

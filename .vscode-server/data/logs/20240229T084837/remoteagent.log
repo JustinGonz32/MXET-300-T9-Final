@@ -1,0 +1,26 @@
+2024-02-29 08:48:37.567 [info] 
+
+
+
+
+2024-02-29 08:48:37.619 [info] Extension host agent started.
+2024-02-29 08:48:38.836 [info] [127.0.0.1][779115ca][ManagementConnection] New connection established.
+2024-02-29 08:48:38.844 [info] [127.0.0.1][d8899b80][ExtensionHostConnection] New connection established.
+2024-02-29 08:48:39.125 [info] [127.0.0.1][d8899b80][ExtensionHostConnection] <1189> Launched Extension Host Process.
+2024-02-29 08:48:45.254 [info] Getting Manifest... ms-python.debugpy
+2024-02-29 08:48:45.256 [info] Getting Manifest... ms-python.python
+2024-02-29 08:48:45.449 [info] Installing extension: ms-python.debugpy
+2024-02-29 08:48:45.457 [info] Installing extension: ms-python.python
+2024-02-29 08:48:56.023 [warning] Extension signature verification failed with error 'ENOENT': ms-python.python
+2024-02-29 08:48:56.797 [warning] Extension signature verification failed with error 'ENOENT': ms-python.debugpy
+2024-02-29 08:49:01.981 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.debugpy-2024.2.0-linux-armhf: ms-python.debugpy
+2024-02-29 08:49:02.024 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.debugpy-2024.2.0-linux-armhf
+2024-02-29 08:49:02.036 [info] Extracting extension completed. ms-python.debugpy
+2024-02-29 08:49:02.087 [info] Extension installed successfully: ms-python.debugpy
+2024-02-29 08:49:02.110 [info] Marked extension as uninstalled ms-python.debugpy-2024.0.0-linux-armhf
+2024-02-29 08:49:09.708 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.python-2024.2.0: ms-python.python
+2024-02-29 08:49:11.799 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0
+2024-02-29 08:49:12.454 [info] Extracting extension completed. ms-python.python
+2024-02-29 08:49:12.930 [info] Extension installed successfully: ms-python.python
+2024-02-29 08:49:12.972 [info] Marked extension as uninstalled ms-python.python-2024.0.1
+2024-02-29 08:53:37.621 [info] New EH opened, aborting shutdown

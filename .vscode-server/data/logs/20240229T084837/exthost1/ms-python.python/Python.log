@@ -1,0 +1,45 @@
+2024-02-29 08:48:50.278 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-02-29 08:48:50.278 [info] Experiment 'pythonREPLSmartSend' is active
+2024-02-29 08:48:50.278 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-02-29 08:48:50.278 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-02-29 08:48:50.279 [info] Experiment 'pythonTestAdapter' is active
+2024-02-29 08:48:50.279 [info] Default formatter is set to null for workspace /home/pi/mxet300_lab
+2024-02-29 08:48:50.279 [info] Test server listening.
+2024-02-29 08:48:50.418 [info] > C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+2024-02-29 08:48:50.515 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-02-29 08:48:56.205 [info] Starting Pylance language server.
+2024-02-29 09:03:21.748 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:04:32.090 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:04:46.003 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:08:04.937 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:09:15.614 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:10:46.433 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:11:19.186 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:15:24.548 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:16:05.963 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:16:22.427 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:16:39.662 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:17:07.016 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:17:44.832 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:19:07.934 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:21:49.151 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:23:42.413 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:26:51.165 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:32:16.319 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:34:02.375 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:38:20.971 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:38:43.725 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py
+2024-02-29 09:45:04.262 [info] Discover tests for workspace name: mxet300_lab - uri: /home/pi/mxet300_lab/basics/L3_lidar.py

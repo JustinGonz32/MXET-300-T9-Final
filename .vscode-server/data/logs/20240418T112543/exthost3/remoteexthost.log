@@ -1,0 +1,232 @@
+2024-04-18 11:26:48.819 [info] Extension host with pid 1475 started
+2024-04-18 11:26:48.960 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2024-04-18 11:26:49.011 [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5b6ae7f15efeb3d1c2e27fbf200aa55c/vscode.lock': Lock acquired.
+2024-04-18 11:26:49.027 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-04-18 11:26:49.359 [info] Eager extensions activated
+2024-04-18 11:26:49.360 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-04-18 11:26:49.362 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-04-18 11:26:50.896 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2024-04-18 11:26:55.077 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-04-18 11:26:55.079 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-04-18 11:26:56.695 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-04-18 11:26:56.696 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-04-18 11:27:04.271 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:04.393 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:14.403 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:24.283 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:34.294 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:34.425 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:44.303 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:44.433 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:54.314 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:27:57.073 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:28:04.325 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:28:09.745 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:28:41.408 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:28:54.533 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:29:59.814 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:30:12.543 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:30:55.764 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:31:02.906 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:31:08.396 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:31:16.594 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:32:39.578 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:32:52.361 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:33:58.119 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:34:11.067 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:35:01.304 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:35:14.158 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:36:14.137 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:36:27.866 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:14.633 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:20.498 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:28.109 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:33.435 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:38.113 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:43.443 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:51.593 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:37:56.537 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:38:53.322 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:39:06.632 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:40:41.214 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:40:54.739 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:41:47.768 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:42:00.642 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:42:40.158 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:42:53.719 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:45:46.949 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:45:59.779 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:46:43.220 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:46:56.728 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:48:08.674 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:48:21.704 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:48:57.629 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:49:10.923 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:51:19.618 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:51:32.965 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:53:09.127 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:53:22.053 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:55:04.248 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:55:17.158 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:55:57.102 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:56:10.013 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:56:58.649 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:57:16.358 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:57:53.018 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:58:06.053 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:59:34.323 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 11:59:47.441 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:00:37.513 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:00:51.033 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:01:37.454 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:01:51.165 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:02:57.711 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:03:10.507 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:04:44.452 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:04:57.103 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:07:42.384 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:07:55.786 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:08:31.195 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:08:44.433 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:10:35.244 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:10:48.226 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:11:37.389 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:11:51.002 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:12:43.299 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:12:56.675 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:13:38.996 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:13:51.872 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:14:25.646 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:14:39.029 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:15:21.383 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:15:34.368 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:16:31.584 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:16:44.454 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:17:51.194 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:18:03.847 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:19:25.298 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:19:38.595 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:20:56.348 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:21:09.670 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:22:03.896 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:22:16.651 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:23:03.573 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:23:16.146 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:25:02.602 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:25:15.426 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:27:31.674 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:27:44.843 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:35:21.352 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:35:34.882 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:36:56.779 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)
+2024-04-18 12:37:09.832 [error] Error: getaddrinfo EAI_AGAIN mobile.events.data.microsoft.com
+	at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:108:26)

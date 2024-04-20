@@ -1,0 +1,26 @@
+2024-02-22 08:56:17.861 [info] Log level: Info
+2024-02-22 08:56:17.861 [info] Validating found git in: "git"
+2024-02-22 08:56:17.861 [info] Using git "2.20.1" from "git"
+2024-02-22 08:56:17.861 [info] > git rev-parse --show-toplevel [18ms]
+2024-02-22 08:56:17.861 [info] > git rev-parse --show-toplevel [22ms]
+2024-02-22 08:56:18.018 [info] > git rev-parse --show-toplevel [7ms]
+2024-02-22 08:56:18.578 [info] > git rev-parse --show-toplevel [15ms]
+2024-02-22 08:56:18.645 [info] > git rev-parse --show-toplevel [6ms]
+2024-02-22 08:56:18.685 [info] > git rev-parse --show-toplevel [4ms]
+2024-02-22 08:56:47.858 [info] > git rev-parse --show-toplevel [16ms]
+2024-02-22 08:56:47.882 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-02-22 08:56:47.924 [info] Open repository: /home/pi/mxet300_lab
+2024-02-22 08:56:47.958 [info] > git config --get commit.template [13ms]
+2024-02-22 08:56:47.996 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [26ms]
+2024-02-22 08:56:48.052 [info] > git status -z -uall [27ms]
+2024-02-22 08:56:48.119 [info] > git config --get commit.template [19ms]
+2024-02-22 08:56:48.122 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-22 08:56:48.145 [info] > git status -z -uall [9ms]
+2024-02-22 08:56:48.521 [info] > git check-ignore -v -z --stdin [5ms]
+2024-02-22 08:57:15.984 [info] > git check-ignore -v -z --stdin [7ms]
+2024-02-22 08:58:11.796 [info] > git config --get commit.template [29ms]
+2024-02-22 08:58:11.801 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2024-02-22 08:58:11.832 [info] > git status -z -uall [8ms]
+2024-02-22 09:03:30.959 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-02-22 09:03:30.962 [info] > git config --get commit.template [47ms]
+2024-02-22 09:03:30.989 [info] > git status -z -uall [5ms]

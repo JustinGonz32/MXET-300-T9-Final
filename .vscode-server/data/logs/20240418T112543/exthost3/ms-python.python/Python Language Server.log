@@ -1,0 +1,36 @@
+2024-04-18 11:27:01.705 [info] (Client) Pylance async client (2024.4.1) started with python extension (2024.4.1)
+2024-04-18 11:27:03.975 [info] [Info  - 11:27:03] (1584) Pylance language server 2024.4.1 (pyright version 1.1.356, commit 6652c4a8) starting
+2024-04-18 11:27:03.976 [info] [Info  - 11:27:03] (1584) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-18 11:27:03.984 [info] [Info  - 11:27:03] (1584) Starting service instance "mxet300_lab"
+2024-04-18 11:27:04.185 [info] [Info  - 11:27:04] (1584) Setting environmentName for service "mxet300_lab": "C:\Users\Justin\Anaconda3\python.exe"
+2024-04-18 11:27:04.895 [info] [Info  - 11:27:04] (1584) Found 25 source files
+2024-04-18 11:27:06.424 [info] [Info  - 11:27:06] (1584) Setting environmentName for service "mxet300_lab": "C:\Users\Justin\Anaconda3\python.exe"
+2024-04-18 11:27:06.727 [info] [Info  - 11:27:06] (1584) Found 25 source files
+2024-04-18 11:27:06.745 [info] [Info  - 11:27:06] (1584) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist
+2024-04-18 11:27:06.755 [info] [Info  - 11:27:06] (1584) Background analysis(1) started
+2024-04-18 11:27:08.472 [info] [Info  - 11:27:08] (1584) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-18 11:27:08.473 [info] [Info  - 11:27:08] (1584) Indexing(2) started
+2024-04-18 11:27:14.070 [info] [Info  - 11:27:14] (1584) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (3113ms)
+2024-04-18 11:27:14.137 [info] [Info  - 11:27:14] (1584) [BG(1)] Long operation: SemanticTokens full at file:///home/pi/mxet300_lab/basics/Final.py (3402ms)
+2024-04-18 11:27:15.978 [info] [Info  - 11:27:15] (1584) [IDX(2)] Long operation: scan packages file:///home/pi/mxet300_lab (7411ms)
+2024-04-18 11:27:15.979 [info] [Info  - 11:27:15] (1584) scanned(2) 222 files over 1 exec env
+2024-04-18 11:27:17.458 [info] [Info  - 11:27:17] (1584) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/Final.py (2589ms)
+2024-04-18 11:27:17.472 [info] [Info  - 11:27:17] (1584) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/Final.py (3061ms)
+2024-04-18 11:27:28.338 [info] [Info  - 11:27:28] (1584) [IDX(2)] Long operation: index execution environment file:///home/pi/mxet300_lab (6379ms)
+2024-04-18 11:27:28.418 [info] [Info  - 11:27:28] (1584) [IDX(2)] Long operation: index packages file:///home/pi/mxet300_lab (6630ms)
+2024-04-18 11:27:28.419 [info] [Info  - 11:27:28] (1584) indexed(2) 155 files over 1 exec env
+2024-04-18 11:27:29.279 [info] [Info  - 11:27:29] (1584) Indexing finished(2).
+2024-04-18 11:28:13.305 [info] [Info  - 11:28:13] (1584) Setting pythonPath for service "mxet300_lab": "/usr/bin/python3"
+2024-04-18 11:28:13.306 [info] [Info  - 11:28:13] (1584) Setting environmentName for service "mxet300_lab": "3.7.3 (global)"
+2024-04-18 11:28:13.419 [info] [Info  - 11:28:13] (1584) Assuming Python version 3.7.3.final.0
+2024-04-18 11:28:13.720 [info] [Info  - 11:28:13] (1584) Found 25 source files
+2024-04-18 11:28:16.041 [info] [Info  - 11:28:16] (1584) Indexer background runner(3) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.4.1/dist (index)
+2024-04-18 11:28:16.042 [info] [Info  - 11:28:16] (1584) Indexing(3) started
+2024-04-18 11:28:19.152 [info] [Info  - 11:28:19] (1584) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (3037ms)
+2024-04-18 11:28:19.903 [info] [Info  - 11:28:19] (1584) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/Final.py (4348ms)
+2024-04-18 11:28:19.903 [info] [Info  - 11:28:19] (1584) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/Final.py (5103ms)
+2024-04-18 11:28:22.209 [info] [Info  - 11:28:22] (1584) [IDX(3)] Long operation: scan packages file:///home/pi/mxet300_lab (4986ms)
+2024-04-18 11:28:22.209 [info] [Info  - 11:28:22] (1584) scanned(3) 222 files over 1 exec env
+2024-04-18 11:28:27.955 [info] [Info  - 11:28:27] (1584) indexed(3) 155 files over 1 exec env
+2024-04-18 11:28:28.848 [info] [Info  - 11:28:28] (1584) Indexing finished(3).
+2024-04-18 11:40:19.509 [info] [Info  - 11:40:19] (1584) [FG] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (2652ms)

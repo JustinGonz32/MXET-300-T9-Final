@@ -1,0 +1,53 @@
+2024-04-11 08:38:26.271 [info] 
+
+
+
+
+2024-04-11 08:38:26.338 [info] Extension host agent started.
+2024-04-11 08:38:26.597 [info] [127.0.0.1][1a1b2aa6][ManagementConnection] New connection established.
+2024-04-11 08:38:26.633 [info] [127.0.0.1][b002565d][ExtensionHostConnection] New connection established.
+2024-04-11 08:38:26.764 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2
+2024-04-11 08:38:26.971 [info] [127.0.0.1][b002565d][ExtensionHostConnection] <1069> Launched Extension Host Process.
+2024-04-11 08:38:33.221 [info] Getting Manifest... ms-python.debugpy
+2024-04-11 08:38:33.223 [info] Getting Manifest... ms-python.python
+2024-04-11 08:38:33.430 [info] Installing extension: ms-python.debugpy
+2024-04-11 08:38:33.438 [info] Installing extension: ms-python.python
+2024-04-11 08:38:34.670 [info] Getting Manifest... ms-python.python
+2024-04-11 08:38:35.198 [info] Waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-04-11 08:38:43.690 [info] Extension signature is verified: ms-python.debugpy
+2024-04-11 08:38:44.916 [info] Extension signature is verified: ms-python.python
+2024-04-11 08:38:47.001 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-armhf: ms-python.debugpy
+2024-04-11 08:38:47.074 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.debugpy-2024.4.0-linux-armhf
+2024-04-11 08:38:47.086 [info] Extracting extension completed. ms-python.debugpy
+2024-04-11 08:38:47.179 [info] Marked extension as uninstalled ms-python.debugpy-2024.2.0-linux-armhf
+2024-04-11 08:38:53.754 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.python-2024.4.1: ms-python.python
+2024-04-11 08:38:56.780 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.python-2024.4.1
+2024-04-11 08:38:56.819 [info] Extracting extension completed. ms-python.python
+2024-04-11 08:38:56.884 [info] Extension installed successfully: ms-python.python
+2024-04-11 08:38:56.896 [info] Finished waiting for already requested installing extension ms-python.python ms-python.debugpy
+2024-04-11 08:38:56.897 [info] Extension installed successfully: ms-python.debugpy
+2024-04-11 08:38:56.937 [info] Marked extension as uninstalled ms-python.python-2024.2.1
+2024-04-11 08:39:52.510 [info] [127.0.0.1][1a1b2aa6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-04-11 08:39:52.635 [info] [127.0.0.1][b002565d][ExtensionHostConnection] <1069> Extension Host Process exited with code: 0, signal: null.
+2024-04-11 08:39:52.641 [info] Cancelling previous shutdown timeout
+2024-04-11 08:39:52.642 [info] Last EH closed, waiting before shutting down
+2024-04-11 08:41:34.465 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-04-11 08:41:34.466 [info] Cancelling previous shutdown timeout
+2024-04-11 08:41:34.608 [info] [127.0.0.1][75b00e44][ManagementConnection] New connection established.
+2024-04-11 08:41:34.623 [info] [127.0.0.1][2a7c458d][ExtensionHostConnection] New connection established.
+2024-04-11 08:41:34.642 [info] [127.0.0.1][2a7c458d][ExtensionHostConnection] <1291> Launched Extension Host Process.
+2024-04-11 08:41:37.315 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-04-11 08:46:34.468 [info] New EH opened, aborting shutdown

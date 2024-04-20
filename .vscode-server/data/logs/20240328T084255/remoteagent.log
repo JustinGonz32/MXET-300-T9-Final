@@ -1,0 +1,41 @@
+2024-03-28 08:42:55.293 [info] 
+
+
+
+
+2024-03-28 08:42:55.356 [info] Extension host agent started.
+2024-03-28 08:42:55.596 [info] [127.0.0.1][31babee2][ManagementConnection] New connection established.
+2024-03-28 08:42:55.622 [info] [127.0.0.1][f18382e0][ExtensionHostConnection] New connection established.
+2024-03-28 08:42:55.957 [info] [127.0.0.1][f18382e0][ExtensionHostConnection] <1199> Launched Extension Host Process.
+2024-03-28 08:43:01.391 [info] Getting Manifest... ms-python.vscode-pylance
+2024-03-28 08:43:01.730 [info] Installing extension: ms-python.vscode-pylance
+2024-03-28 08:43:02.829 [info] Getting Manifest... ms-python.python
+2024-03-28 08:43:14.051 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-03-28 08:43:40.524 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2: ms-python.vscode-pylance
+2024-03-28 08:43:40.598 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2
+2024-03-28 08:43:40.612 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-03-28 08:43:40.664 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-03-28 08:43:40.697 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.3.1
+2024-03-28 08:45:53.552 [info] [127.0.0.1][31babee2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-28 08:45:53.705 [info] [127.0.0.1][f18382e0][ExtensionHostConnection] <1199> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 08:45:53.707 [info] Cancelling previous shutdown timeout
+2024-03-28 08:45:53.708 [info] Last EH closed, waiting before shutting down
+2024-03-28 08:45:59.619 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-03-28 08:45:59.620 [info] Cancelling previous shutdown timeout
+2024-03-28 08:45:59.779 [info] [127.0.0.1][a854990d][ManagementConnection] New connection established.
+2024-03-28 08:45:59.870 [info] [127.0.0.1][8baf90f8][ExtensionHostConnection] New connection established.
+2024-03-28 08:45:59.896 [info] [127.0.0.1][8baf90f8][ExtensionHostConnection] <2085> Launched Extension Host Process.
+2024-03-28 08:50:59.622 [info] New EH opened, aborting shutdown
+2024-03-28 08:59:57.417 [info] [127.0.0.1][daf630be][ManagementConnection] New connection established.
+2024-03-28 08:59:57.495 [info] [127.0.0.1][8f81475a][ExtensionHostConnection] New connection established.
+2024-03-28 08:59:57.526 [info] [127.0.0.1][8f81475a][ExtensionHostConnection] <2924> Launched Extension Host Process.
+2024-03-28 09:34:41.835 [info] [127.0.0.1][daf630be][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-28 09:34:42.055 [info] [127.0.0.1][8f81475a][ExtensionHostConnection] <2924> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 09:34:47.730 [info] [127.0.0.1][56e47b41][ManagementConnection] New connection established.
+2024-03-28 09:34:47.801 [info] [127.0.0.1][0f10d01d][ExtensionHostConnection] New connection established.
+2024-03-28 09:34:47.823 [info] [127.0.0.1][0f10d01d][ExtensionHostConnection] <8329> Launched Extension Host Process.
+2024-03-28 10:00:22.772 [info] [127.0.0.1][a854990d][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-28 10:00:22.935 [info] [127.0.0.1][8baf90f8][ExtensionHostConnection] <2085> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 10:00:27.755 [info] [127.0.0.1][56e47b41][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-28 10:00:27.933 [info] [127.0.0.1][0f10d01d][ExtensionHostConnection] <8329> Extension Host Process exited with code: 0, signal: null.
+2024-03-28 10:00:27.933 [info] Last EH closed, waiting before shutting down

@@ -1,0 +1,27 @@
+2024-03-28 09:34:55.331 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-03-28 09:34:55.331 [info] Experiment 'pythonREPLSmartSend' is active
+2024-03-28 09:34:55.331 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-03-28 09:34:55.331 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-03-28 09:34:55.331 [info] Experiment 'pythonTestAdapter' is active
+2024-03-28 09:34:55.331 [info] Default formatter is set to null for workspace /home/pi/mxet300_lab/basics
+2024-03-28 09:34:55.331 [info] Test server listening.
+2024-03-28 09:34:55.378 [info] > C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+2024-03-28 09:34:55.402 [error] [Error: Command failed: C:\Users\Justin\Anaconda3\python.exe -c "import sys;print(sys.executable)"
+/bin/sh: 1: C:UsersJustinAnaconda3python.exe: not found
+
+	at ChildProcess.exithandler (node:child_process:420:12)
+	at ChildProcess.emit (node:events:526:35)
+	at maybeClose (node:internal/child_process:1091:16)
+	at Socket.<anonymous> (node:internal/child_process:449:11)
+	at Socket.emit (node:events:514:28)
+	at Pipe.<anonymous> (node:net:323:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'C:\\Users\\Justin\\Anaconda3\\python.exe -c "import sys;print(sys.executable)"'
+}
+2024-03-28 09:34:58.460 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-03-28 09:35:00.903 [info] Starting Pylance language server.
+2024-03-28 09:35:08.137 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-28 09:35:09.765 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-03-28 09:55:31.330 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L3_color_tracking.py

@@ -1,0 +1,161 @@
+2024-03-21 08:46:29.187 [info] 
+
+
+
+
+2024-03-21 08:46:29.238 [info] Extension host agent started.
+2024-03-21 08:46:33.873 [info] [127.0.0.1][78332120][ManagementConnection] New connection established.
+2024-03-21 08:46:33.877 [info] [127.0.0.1][1c8c2495][ExtensionHostConnection] New connection established.
+2024-03-21 08:46:33.908 [info] [127.0.0.1][1c8c2495][ExtensionHostConnection] <1091> Launched Extension Host Process.
+2024-03-21 08:46:34.034 [info] Deleted uninstalled extension from disk ms-python.debugpy /home/pi/.vscode-server/extensions/ms-python.debugpy-2024.0.0-linux-armhf
+2024-03-21 08:46:34.036 [info] Deleted uninstalled extension from disk ms-python.python /home/pi/.vscode-server/extensions/ms-python.python-2024.0.1
+2024-03-21 08:46:40.484 [info] Getting Manifest... ms-python.python
+2024-03-21 08:46:40.488 [info] Getting Manifest... ms-python.vscode-pylance
+2024-03-21 08:46:40.655 [info] Installing extension: ms-python.python
+2024-03-21 08:46:40.701 [info] Installing extension: ms-python.vscode-pylance
+2024-03-21 08:46:42.294 [info] Getting Manifest... ms-python.python
+2024-03-21 08:46:43.962 [info] Waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-03-21 08:46:53.693 [info] Extension signature is verified: ms-python.python
+2024-03-21 08:46:53.722 [info] Extension signature is verified: ms-python.vscode-pylance
+2024-03-21 08:47:11.821 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.python-2024.2.1: ms-python.python
+2024-03-21 08:47:12.478 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.python-2024.2.1
+2024-03-21 08:47:12.539 [info] Extracting extension completed. ms-python.python
+2024-03-21 08:47:12.906 [info] Extension installed successfully: ms-python.python
+2024-03-21 08:47:12.913 [info] Finished waiting for already requested installing extension ms-python.python ms-python.vscode-pylance
+2024-03-21 08:47:12.934 [info] Marked extension as uninstalled ms-python.python-2024.2.0
+2024-03-21 08:47:21.664 [info] Extracted extension to file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.1: ms-python.vscode-pylance
+2024-03-21 08:47:22.000 [info] Renamed to /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.1
+2024-03-21 08:47:22.019 [info] Extracting extension completed. ms-python.vscode-pylance
+2024-03-21 08:47:22.044 [info] Extension installed successfully: ms-python.vscode-pylance
+2024-03-21 08:47:22.062 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.2.2
+2024-03-21 08:51:29.241 [info] New EH opened, aborting shutdown
+2024-03-21 08:56:01.890 [info] [127.0.0.1][d1bf0908][ManagementConnection] New connection established.
+2024-03-21 08:56:02.009 [info] [127.0.0.1][767f3b08][ExtensionHostConnection] New connection established.
+2024-03-21 08:56:02.038 [info] [127.0.0.1][767f3b08][ExtensionHostConnection] <2978> Launched Extension Host Process.
+2024-03-21 08:56:04.672 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:12:36.719 [info] [127.0.0.1][d1bf0908][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 09:12:36.803 [info] [127.0.0.1][767f3b08][ExtensionHostConnection] <2978> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 09:12:42.398 [info] [127.0.0.1][a56cc6a7][ManagementConnection] New connection established.
+2024-03-21 09:12:42.500 [info] [127.0.0.1][a0df2fb0][ExtensionHostConnection] New connection established.
+2024-03-21 09:12:42.527 [info] [127.0.0.1][a0df2fb0][ExtensionHostConnection] <5983> Launched Extension Host Process.
+2024-03-21 09:12:45.293 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:13:07.203 [info] [127.0.0.1][a56cc6a7][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 09:13:07.273 [info] [127.0.0.1][a0df2fb0][ExtensionHostConnection] <5983> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 09:13:12.572 [info] [127.0.0.1][6af7a261][ManagementConnection] New connection established.
+2024-03-21 09:13:12.646 [info] [127.0.0.1][bd369b65][ExtensionHostConnection] New connection established.
+2024-03-21 09:13:12.674 [info] [127.0.0.1][bd369b65][ExtensionHostConnection] <6103> Launched Extension Host Process.
+2024-03-21 09:13:15.331 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:14:57.926 [info] [127.0.0.1][78332120][ManagementConnection] The client has reconnected.
+2024-03-21 09:14:57.955 [info] [127.0.0.1][1c8c2495][ExtensionHostConnection] The client has reconnected.
+2024-03-21 09:14:59.058 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateIcon (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27763)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:14:59.066 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:14:59.068 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:15:00.215 [error] CodeExpectedError: Could not find pty on pty host
+    at D.U (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:32578)
+    at D.updateTitle (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:27710)
+    at T.<computed> (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:43:22925)
+    at Object.call (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:34:5061)
+    at u.s (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:5165)
+    at u.q (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4667)
+    at l.value (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:32:4065)
+    at m.y (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at m.fire (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process._ (/home/pi/.vscode-server/bin/863d2581ecda6849923a2118d93a088b0745d9d6/out/vs/platform/terminal/node/ptyHostMain.js:25:10025)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:16:21.751 [info] [127.0.0.1][6af7a261][ManagementConnection] The client has reconnected.
+2024-03-21 09:16:49.307 [info] [127.0.0.1][bd369b65][ExtensionHostConnection] The client has reconnected.
+2024-03-21 10:18:33.706 [info] [127.0.0.1][6af7a261][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 10:18:33.834 [info] [127.0.0.1][bd369b65][ExtensionHostConnection] <6103> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 10:18:39.158 [info] [127.0.0.1][6866eaa2][ManagementConnection] New connection established.
+2024-03-21 10:18:39.272 [info] [127.0.0.1][0ee19648][ExtensionHostConnection] New connection established.
+2024-03-21 10:18:39.300 [info] [127.0.0.1][0ee19648][ExtensionHostConnection] <9083> Launched Extension Host Process.
+2024-03-21 10:19:00.780 [info] [127.0.0.1][6866eaa2][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 10:19:00.890 [info] [127.0.0.1][0ee19648][ExtensionHostConnection] <9083> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 10:19:05.556 [info] [127.0.0.1][d146ecc5][ManagementConnection] New connection established.
+2024-03-21 10:19:05.646 [info] [127.0.0.1][b771c47c][ExtensionHostConnection] New connection established.
+2024-03-21 10:19:05.678 [info] [127.0.0.1][b771c47c][ExtensionHostConnection] <9200> Launched Extension Host Process.
+2024-03-21 10:23:40.067 [info] [127.0.0.1][d146ecc5][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 10:23:40.257 [info] [127.0.0.1][b771c47c][ExtensionHostConnection] <9200> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 10:23:44.773 [info] [127.0.0.1][78332120][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 10:23:44.966 [info] [127.0.0.1][1c8c2495][ExtensionHostConnection] <1091> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 10:23:44.966 [info] Last EH closed, waiting before shutting down

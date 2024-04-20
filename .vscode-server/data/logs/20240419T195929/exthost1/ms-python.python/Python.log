@@ -1,0 +1,12 @@
+2024-04-19 19:59:38.842 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-19 19:59:38.842 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-19 19:59:38.842 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-04-19 19:59:38.842 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-19 19:59:38.842 [info] Experiment 'pythonTestAdapter' is active
+2024-04-19 19:59:38.842 [info] Default formatter is set to null for workspace /home/pi/mxet300_lab
+2024-04-19 19:59:38.842 [info] Test server listening.
+2024-04-19 19:59:38.842 [info] Python interpreter path: /usr/bin/python3
+2024-04-19 19:59:39.308 [info] > pyenv which python
+2024-04-19 19:59:39.309 [info] cwd: .
+2024-04-19 19:59:40.520 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-04-19 19:59:42.854 [info] Starting Pylance language server.

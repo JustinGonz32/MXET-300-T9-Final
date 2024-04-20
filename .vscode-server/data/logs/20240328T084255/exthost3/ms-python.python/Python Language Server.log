@@ -1,0 +1,13 @@
+2024-03-28 09:00:32.301 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-03-28 09:00:34.534 [info] [Info  - 09:00:34] (3027) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-03-28 09:00:34.535 [info] [Info  - 09:00:34] (3027) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-03-28 09:00:34.642 [info] [Info  - 09:00:34] (3027) Starting service instance "<default>"
+2024-03-28 09:00:34.770 [info] [Info  - 09:00:34] (3027) Setting environmentName for service "<default>": "C:\Users\Justin\Anaconda3\python.exe"
+2024-03-28 09:00:35.169 [info] [Info  - 09:00:35] (3027) No source files found.
+2024-03-28 09:00:35.491 [info] [Info  - 09:00:35] (3027) Setting environmentName for service "<default>": "C:\Users\Justin\Anaconda3\python.exe"
+2024-03-28 09:00:35.716 [info] [Info  - 09:00:35] (3027) No source files found.
+2024-03-28 09:00:37.175 [info] [Info  - 09:00:37] (3027) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-03-28 09:00:37.187 [info] [Info  - 09:00:37] (3027) Background analysis(1) started
+2024-03-28 09:00:43.141 [info] [Info  - 09:00:43] (3027) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (3180ms)
+2024-03-28 09:00:43.360 [info] [Info  - 09:00:43] (3027) [BG(1)] Long operation: checking: file:///home/pi/mxet300_lab/basics/computer_vision/L3_color_tracking.py (4058ms)
+2024-03-28 09:00:43.361 [info] [Info  - 09:00:43] (3027) [BG(1)] Long operation: analyzing: file:///home/pi/mxet300_lab/basics/computer_vision/L3_color_tracking.py (5280ms)

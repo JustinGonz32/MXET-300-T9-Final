@@ -1,0 +1,6 @@
+[submodule ".local/share/omf"]
+	path = .local/share/omf
+	url = https://github.com/JustinGonz32/MXET-300-T9-Final
+[submodule "MXET-300-T9-Final-2"]
+	path = MXET-300-T9-Final-2
+	url = https://github.com/JustinGonz32/MXET-300-T9-Final

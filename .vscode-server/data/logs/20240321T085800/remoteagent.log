@@ -1,0 +1,35 @@
+2024-03-21 08:58:00.425 [info] 
+
+
+
+
+2024-03-21 08:58:00.476 [info] Extension host agent started.
+2024-03-21 08:58:00.792 [info] [127.0.0.1][75cd5650][ManagementConnection] New connection established.
+2024-03-21 08:58:00.806 [info] [127.0.0.1][16166940][ExtensionHostConnection] New connection established.
+2024-03-21 08:58:00.928 [info] Deleted uninstalled extension from disk ms-python.python /home/pi/.vscode-server/extensions/ms-python.python-2024.2.0
+2024-03-21 08:58:00.931 [info] Deleted uninstalled extension from disk ms-python.vscode-pylance /home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.2.2
+2024-03-21 08:58:01.125 [info] [127.0.0.1][16166940][ExtensionHostConnection] <3389> Launched Extension Host Process.
+2024-03-21 08:59:30.865 [info] [127.0.0.1][75cd5650][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-03-21 08:59:30.968 [info] [127.0.0.1][16166940][ExtensionHostConnection] <3389> Extension Host Process exited with code: 0, signal: null.
+2024-03-21 08:59:30.969 [info] Cancelling previous shutdown timeout
+2024-03-21 08:59:30.970 [info] Last EH closed, waiting before shutting down
+2024-03-21 08:59:44.047 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2024-03-21 08:59:44.047 [info] Cancelling previous shutdown timeout
+2024-03-21 08:59:44.185 [info] [127.0.0.1][e862cf2b][ManagementConnection] New connection established.
+2024-03-21 08:59:44.269 [info] [127.0.0.1][363f71f8][ExtensionHostConnection] New connection established.
+2024-03-21 08:59:44.292 [info] [127.0.0.1][363f71f8][ExtensionHostConnection] <3664> Launched Extension Host Process.
+2024-03-21 08:59:47.154 [error] CodeExpectedError: Could not find pty on pty host
+    at A.U (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:32407)
+    at A.updateTitle (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:27539)
+    at U.<computed> (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:43:22765)
+    at Object.call (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:34:5041)
+    at $.s (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:5153)
+    at $.q (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4662)
+    at a.value (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:32:4064)
+    at d.y (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:1906)
+    at d.fire (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:27:2123)
+    at process.ne (/home/pi/.vscode-server/bin/31c37ee8f63491495ac49e43b8544550fbae4533/out/vs/platform/terminal/node/ptyHostMain.js:25:10072)
+    at process.emit (node:events:514:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2024-03-21 09:04:44.049 [info] New EH opened, aborting shutdown

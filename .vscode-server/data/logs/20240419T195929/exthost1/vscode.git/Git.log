@@ -1,0 +1,48 @@
+2024-04-19 19:59:39.281 [info] Log level: Info
+2024-04-19 19:59:39.281 [info] Validating found git in: "git"
+2024-04-19 19:59:39.281 [info] Using git "2.20.1" from "git"
+2024-04-19 19:59:39.281 [info] > git rev-parse --show-toplevel [240ms]
+2024-04-19 19:59:39.281 [info] > git rev-parse --git-dir --git-common-dir [262ms]
+2024-04-19 19:59:39.281 [info] Open repository: /home/pi/mxet300_lab
+2024-04-19 19:59:39.281 [info] > git rev-parse --show-toplevel [53ms]
+2024-04-19 19:59:39.281 [info] > git config --get commit.template [77ms]
+2024-04-19 19:59:39.378 [info] > git rev-parse --show-toplevel [115ms]
+2024-04-19 19:59:39.404 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [75ms]
+2024-04-19 19:59:39.460 [info] > git rev-parse --show-toplevel [58ms]
+2024-04-19 19:59:39.629 [info] > git check-ignore -v -z --stdin [148ms]
+2024-04-19 19:59:39.682 [info] > git rev-parse --show-toplevel [177ms]
+2024-04-19 19:59:39.763 [info] > git status -z -uall [107ms]
+2024-04-19 19:59:39.763 [info] > git show --textconv :basics/shapeMotions.py [50ms]
+2024-04-19 19:59:39.877 [info] > git merge-base refs/heads/main refs/remotes/origin/main [88ms]
+2024-04-19 19:59:39.900 [info] > git ls-files --stage -- /home/pi/mxet300_lab/basics/shapeMotions.py [166ms]
+2024-04-19 19:59:40.072 [info] > git cat-file -s 11af98435b09d1f1cf5067176363e73195711630 [155ms]
+2024-04-19 19:59:40.074 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [176ms]
+2024-04-19 19:59:40.095 [info] > git config --get commit.template [242ms]
+2024-04-19 19:59:40.117 [info] > git diff --name-status -z --diff-filter=ADMR 9bc3517728e055eedeadfa74efbe16a1bf790f11...refs/remotes/origin/main [25ms]
+2024-04-19 19:59:40.123 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-04-19 19:59:40.169 [info] > git status -z -uall [7ms]
+2024-04-19 20:02:56.459 [warning] ENOENT: no such file or directory, open '/home/pi/mxet300_lab/.git/HEAD'
+2024-04-19 20:02:56.495 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/pi/mxet300_lab/.git/config'
+2024-04-19 20:02:56.530 [info] > git config --get commit.template [9ms]
+2024-04-19 20:02:56.531 [info] > git remote --verbose [35ms]
+2024-04-19 20:02:56.533 [info] > git symbolic-ref --short HEAD [76ms]
+2024-04-19 20:02:56.562 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-04-19 20:02:56.562 [warning] No such branch: master.
+2024-04-19 20:02:56.653 [info] > git ls-files --stage -- /home/pi/mxet300_lab/basics/shapeMotions.py [39ms]
+2024-04-19 20:02:56.710 [info] > git show --textconv :basics/shapeMotions.py [28ms]
+2024-04-19 20:02:56.740 [info] > git status -z -uall [153ms]
+2024-04-19 20:02:56.759 [warning] ENOENT: no such file or directory, open '/home/pi/mxet300_lab/.git/HEAD'
+2024-04-19 20:02:56.775 [warning] getRemotes() - ENOENT: no such file or directory, open '/home/pi/mxet300_lab/.git/config'
+2024-04-19 20:02:56.795 [info] > git remote --verbose [19ms]
+2024-04-19 20:02:56.796 [info] > git symbolic-ref --short HEAD [38ms]
+2024-04-19 20:02:56.814 [info] > git config --get commit.template [22ms]
+2024-04-19 20:02:56.816 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-04-19 20:02:56.816 [warning] No such branch: master.
+2024-04-19 20:02:56.964 [info] > git status -z -uall [131ms]
+2024-04-19 20:03:13.407 [info] No remotes found in the git config file.
+2024-04-19 20:03:13.410 [info] > git config --get commit.template [21ms]
+2024-04-19 20:03:13.411 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-04-19 20:03:13.411 [warning] No such branch: master.
+2024-04-19 20:03:13.435 [info] > git status -z -uall [5ms]
+2024-04-19 20:03:13.505 [info] > git ls-files --stage -- /home/pi/mxet300_lab/basics/shapeMotions.py [4ms]
+2024-04-19 20:03:13.614 [info] > git show --textconv :basics/shapeMotions.py [59ms]

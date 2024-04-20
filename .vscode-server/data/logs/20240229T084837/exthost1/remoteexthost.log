@@ -1,0 +1,19 @@
+2024-02-29 08:48:41.460 [info] Extension host with pid 1189 started
+2024-02-29 08:48:41.465 [error] Error: EEXIST: file already exists, open '/home/pi/.vscode-server/data/User/workspaceStorage/5552e09fe5210c50afa33e75cc8875dd/vscode.lock'
+2024-02-29 08:48:41.497 [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5552e09fe5210c50afa33e75cc8875dd/vscode.lock': Could not acquire lock, checking if the file is stale.
+2024-02-29 08:48:41.522 [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5552e09fe5210c50afa33e75cc8875dd/vscode.lock': The pid 6178 appears to be gone.
+2024-02-29 08:48:41.523 [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5552e09fe5210c50afa33e75cc8875dd/vscode.lock': Deleting a stale lock.
+2024-02-29 08:48:41.538 [info] Lock '/home/pi/.vscode-server/data/User/workspaceStorage/5552e09fe5210c50afa33e75cc8875dd/vscode.lock': Lock acquired.
+2024-02-29 08:48:41.698 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-02-29 08:48:41.703 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-02-29 08:48:41.705 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-02-29 08:48:41.707 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-02-29 08:48:42.798 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-02-29 08:48:42.982 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-02-29 08:48:42.986 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-02-29 08:48:44.107 [info] Eager extensions activated
+2024-02-29 08:48:44.109 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 08:48:44.110 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-02-29 08:48:45.436 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-02-29 08:48:45.438 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python'
+2024-02-29 08:48:48.501 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'

@@ -1,0 +1,19 @@
+2024-03-28 09:34:58.403 [info] (Client) Pylance async client (2024.3.2) started with python extension (2024.2.1)
+2024-03-28 09:35:00.733 [info] [Info  - 09:35:00] (8558) Pylance language server 2024.3.2 (pyright version 1.1.351, commit 87171fbf) starting
+2024-03-28 09:35:00.734 [info] [Info  - 09:35:00] (8558) Server root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-03-28 09:35:00.749 [info] [Info  - 09:35:00] (8558) Starting service instance "basics"
+2024-03-28 09:35:01.055 [info] [Info  - 09:35:01] (8558) Setting environmentName for service "basics": "C:\Users\Justin\Anaconda3\python.exe"
+2024-03-28 09:35:01.581 [info] [Info  - 09:35:01] (8558) Found 22 source files
+2024-03-28 09:35:03.664 [info] [Info  - 09:35:03] (8558) Background analysis(1) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist
+2024-03-28 09:35:03.681 [info] [Info  - 09:35:03] (8558) Background analysis(1) started
+2024-03-28 09:35:04.660 [info] [Info  - 09:35:04] (8558) Indexer background runner(2) root directory: file:///home/pi/.vscode-server/extensions/ms-python.vscode-pylance-2024.3.2/dist (index)
+2024-03-28 09:35:04.661 [info] [Info  - 09:35:04] (8558) Indexing(2) started
+2024-03-28 09:35:09.727 [info] [Info  - 09:35:09] (8558) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/core/__init__.py (2184ms)
+2024-03-28 09:35:11.508 [info] [Info  - 09:35:11] (8558) [BG(1)] Long operation: binding: file:///usr/lib/python3/dist-packages/numpy/__init__.py (4044ms)
+2024-03-28 09:35:11.737 [info] [Info  - 09:35:11] (8558) [IDX(2)] Long operation: scan packages file:///home/pi/mxet300_lab/basics (7039ms)
+2024-03-28 09:35:11.738 [info] [Info  - 09:35:11] (8558) scanned(2) 222 files over 1 exec env
+2024-03-28 09:35:12.862 [info] [Info  - 09:35:12] (8558) [BG(1)] Long operation: SemanticTokens full at file:///home/pi/mxet300_lab/basics/L2_speed_control.py (6268ms)
+2024-03-28 09:35:27.474 [info] [Info  - 09:35:27] (8558) [IDX(2)] Long operation: index execution environment file:///home/pi/mxet300_lab/basics (10253ms)
+2024-03-28 09:35:27.621 [info] [Info  - 09:35:27] (8558) [IDX(2)] Long operation: index packages file:///home/pi/mxet300_lab/basics (10454ms)
+2024-03-28 09:35:27.621 [info] [Info  - 09:35:27] (8558) indexed(2) 155 files over 1 exec env
+2024-03-28 09:35:28.467 [info] [Info  - 09:35:28] (8558) Indexing finished(2).

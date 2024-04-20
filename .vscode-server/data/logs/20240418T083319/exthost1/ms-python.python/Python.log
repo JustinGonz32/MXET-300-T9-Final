@@ -1,0 +1,53 @@
+2024-04-18 08:33:29.428 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-04-18 08:33:29.428 [info] Experiment 'pythonREPLSmartSend' is active
+2024-04-18 08:33:29.428 [info] Experiment 'pythonSurveyNotificationcf' is active
+2024-04-18 08:33:29.428 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-04-18 08:33:29.428 [info] Experiment 'pythonTestAdapter' is active
+2024-04-18 08:33:29.572 [info] Default formatter is set to null for workspace /home/pi/mxet300_lab/basics
+2024-04-18 08:33:31.572 [info] Test server listening.
+2024-04-18 08:33:31.575 [info] Python interpreter path: /usr/bin/python3
+2024-04-18 08:33:32.678 [info] > pyenv which python
+2024-04-18 08:33:32.678 [info] cwd: .
+2024-04-18 08:33:34.206 [warning] Shell integration may not be active, environment activated may be overridden by the shell.
+2024-04-18 08:33:36.554 [info] Starting Pylance language server.
+2024-04-18 08:42:21.386 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 08:42:43.615 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 08:45:03.923 [info] CreateEnv Trigger - Skipping for /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 08:45:03.940 [info] Send text to terminal: /usr/bin/python3 /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 08:50:40.989 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 08:52:18.529 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:02:49.121 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:05:27.150 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:10:49.178 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:12:30.398 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:19:16.054 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:21:30.255 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:27:38.855 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:27:59.587 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:28:28.033 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:28:52.144 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:31:08.946 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:34:46.676 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/nodeRedShape.py
+2024-04-18 09:36:30.982 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:38:17.611 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:38:54.859 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:39:56.279 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:42:24.077 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 09:43:25.501 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:44:59.543 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:46:44.411 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:47:17.111 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:52:50.167 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:53:26.050 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:54:00.613 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:55:36.225 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:56:00.941 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 09:59:12.305 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 10:01:19.558 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 10:02:33.446 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/Final.py
+2024-04-18 10:11:14.592 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 10:14:26.172 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-04-18 10:14:42.311 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/L2_speed_control.py
+2024-04-18 10:33:52.136 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 10:37:25.346 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
+2024-04-18 10:37:31.182 [info] Discover tests for workspace name: basics - uri: /home/pi/mxet300_lab/basics/shapeMotions.py
