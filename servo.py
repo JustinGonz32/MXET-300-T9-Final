@@ -1,36 +1,36 @@
-import RPi.GPIO as GPIO
+from gpiozero import Servo
 from time import sleep
 
-# Set the GPIO numbering mode to BOARD
-GPIO.setmode(GPIO.BOARD)
-# Set pin 13 as an output pin
-GPIO.setup(13, GPIO.OUT)
+# Setup servo on GPIO27 (pin 13), change according to your servo connection
+servo = Servo(27)
 
-# Initialize PWM on pin 13 with a frequency of 50Hz
-pwm = GPIO.PWM(13, 50)
-pwm.start(0)
-
-def SetAngle(angle):
-    """
-    This function sets the angle of the servo motor.
-    Args:
-        angle (int): The angle to which the servo motor should rotate.
-    """
-    duty = angle / 18 + 2
-    pwm.ChangeDutyCycle(duty)
+def set_angle(angle):
+    # Convert degrees to servo position and clamp to servo range
+    position = angle / 90.0
+    servo.value = max(min(position, 1), -1)  # Limit position to range [-1, 1]
     sleep(1)
-    pwm.ChangeDutyCycle(0)  # Stop sending a signal to the servo
+
+def servoInt():
+    servo.value = None
+    print("Detached servo :(")
 
 def main():
+    servo.value = None
     try:
         while True:
-            usAngle = int(input("Enter Angle: "))
-            SetAngle(usAngle)
+            user_input = input("Enter angle (-90 to 90) or 'detach' to relax servo: ")
+            if user_input.lower() == 'detach':
+                servo.value = None  # Detach servo to reduce jitter when not actively controlling
+                print("Servo detached.")
+            else:
+                angle = float(user_input)
+                set_angle(angle)
+                sleep(1)  # Give time for the servo to move
+                servo.value = None
     except KeyboardInterrupt:
-        print("Program stopped by user.")
+        print("Program terminated by user")
     finally:
-        pwm.stop()  # Stop the PWM output
-        GPIO.cleanup()  # Clean up GPIO to ensure all channels are reset
+        servo.value = None  # Detach servo on program exit
 
 if __name__ == "__main__":
     main()

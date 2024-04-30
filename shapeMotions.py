@@ -5,12 +5,14 @@ import L2_speed_control as sc
 import L1_log as log
 from time import sleep
 import nodeRedShape
+import servo
 #import math
 
 # Define constants for the shapes
 pi = np.pi * 1.019108  # Define pi using numpy
 forward_velocity = 0.25  # Forward velocity (x dot) in m/s of SCUTTLE
 quarter_turn = 0.5 * pi  # Quarter turn in radians
+third_turn = 0.75 * pi  # Quarter turn in radians
 half_turn = pi  # Half turn in radians
 full_turn = 2 * pi  # Full turn in radians
 side_length = 0.5  # Side length of the square
@@ -25,6 +27,7 @@ e0 = 0  # error sample
 e1 = 0  # error sample
 dt = 0  # delta in time
 de_dt = np.zeros(2)
+scale_factor = 1
 
 # Function to draw a star shape
 def draw_star(scale_factor, mode):
@@ -108,11 +111,11 @@ def draw_triangle(scale_factor, mode):
     # Define the sequence of motions to draw a triangle
     motions = [
         [forward_velocity, 0, 2],        # Motion 1: Move forward
-        [0, 120, 2],                      # Motion 2: Rotate 120 degrees (1/3 of a full circle)
+        [0, third_turn, 2],                      # Motion 2: Rotate 120 degrees (1/3 of a full circle)
         [forward_velocity, 0, 2],        # Motion 3: Move forward
-        [0, 120, 2],                      # Motion 4: Rotate 120 degrees (1/3 of a full circle)
+        [0, third_turn, 2],                      # Motion 4: Rotate 120 degrees (1/3 of a full circle)
         [forward_velocity, 0, 2],        # Motion 5: Move forward
-        [0, 120, 2],                      # Motion 6: Rotate 120 degrees (1/3 of a full circle)
+        [0, third_turn, 2],                      # Motion 6: Rotate 120 degrees (1/3 of a full circle)
         [0, 0, 1]  # Motion 9: Stop
     ]
     if (mode == 'open'):
@@ -148,7 +151,7 @@ def draw_square(scale_factor, mode):
 
 def draw_circle(scale, mode):
     # Define parameters for drawing the circle
-    radius = 1.0  # Radius of the circle in meters
+    radius = 0.5  # Radius of the circle in meters
     num_segments = 36  # Number of line segments to approximate the circle
     motion_duration = 0.5  # Duration of each motion segment in seconds
 
@@ -170,7 +173,7 @@ def draw_circle(scale, mode):
         execute_motions(motions, pdt, pdc)
 
 # Function to draw the letter 'M'
-def draw_m(scale_factor):
+def draw_m(scale_factor, mode):
     side_length = 1.0  # Adjust the side length as necessary
     forward_motion_duration = side_length / forward_velocity
     motions = [
@@ -291,20 +294,47 @@ def execute_motions_cl(motions, pdt, pdc):
 
 # Function to execute motions with closed-loop control
 def execute_motions(motions):
-    for count, motion in enumerate(motions):
-        print("Motion: ", count+1, "\t Chassis Forward Velocity (m/s): {:.2f} \t Chassis Angular Velocity (rad/s): {:.2f} \t Duration (sec): {:.2f}".format(motion[0], motion[1], motion[2]))
-        wheel_speeds = ik.getPdTargets(motion[:2])
-        sc.driveOpenLoop(wheel_speeds)  # Use openLoop                         
-        #log.tmpFile(motion[1],"fVel") 
-        #log.tmpFile(motion[2],"aVel") 
-        sleep(motion[2])
+    motion_0()
+    servo.servoInt()
+    servo.set_angle(-1)
+    sleep(0.1)
+    servo.servoInt()
+    sleep(1)
+    for  count, motions in enumerate(motions):
+        print("Motion: ", count+1, "\t Chassis Forward Velocity (m/s): {:.2f} \t Chassis Angular Velocity (rad/s): {:.2f} \t Duration (sec): {:.2f}".format(motions[0], motions[1], motions[2]))
+        wheel_speeds = ik.getPdTargets(motions[:2])                  # take the forward speed(m/s) and turning speed(rad/s) and use inverse kinematics to deterimine wheel speeds
+        sc.driveOpenLoop(wheel_speeds)                              # take the calculated wheel speeds and use them to run the motors
+        #log.tmpFile(motion[1],"fVel") #Log forward velocity
+        #log.tmpFile(motion[2],"aVel") #Log angular velocity
+        sleep(motions[2])
+    servo.set_angle(0)
+    sleep(0.1)
+    servo.servoInt()
     nodeRedShape.selected_shape = ""
+
+def motion_0():
+    servo.set_angle(2)
+    sleep(0.1)
+    servo.servoInt()
+    ini_mot = [forward_velocity, 0, 1]
+    wheel_speeds = ik.getPdTargets(ini_mot[:2])
+    print("Wheel speeds: ", wheel_speeds)
+    sc.driveOpenLoop(wheel_speeds)  # Use openLoop
+    print("Scale factor: ", scale_factor)
+    sleep(ini_mot[2])  # Adjusted to use ini_mot[2] instead of motion[2]
+    #log.tmpFile(ini_mot[1], "fVel") 
+    #log.tmpFile(ini_mot[2], "aVel")
+    ini_mot = [0, 0, 1]
+    wheel_speeds = ik.getPdTargets(ini_mot[:2])
+    sc.driveOpenLoop(wheel_speeds)
+    sleep(ini_mot[2])
 
 def main():
     while(1):
         #shape = nodeRedShape.selected_shape
+        servo.servoInt()
         shape = input("Shape: ")
-        mode = input("Closed or open loop?")
+        mode = input("Closed or open loop: ")
         scale = 1
         print("Motions - Shape: ", shape)
 
