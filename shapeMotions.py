@@ -251,7 +251,8 @@ def main():
     while(1):
         #shape = nodeRedShape.selected_shape
         servo.servoInt()
-
+        colorTrack()
+        obsAvoid()
         shape = input("Shape: ")
         mode = input("Closed or open loop: ")
         scale = 1

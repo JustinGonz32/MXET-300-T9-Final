@@ -47,7 +47,7 @@ v3_max = 255    # Maximum V value
 
 target_width = 100      # Target pixel width of tracked object
 angle_margin = 0.2      # Radians object can be from image center to be considered "centered"
-width_margin = 10       # Minimum width error to drive forward/back
+width_margin = 20       # Minimum width error to drive forward/back
 
 def main():
     # Try opening camera with default method
@@ -118,7 +118,8 @@ def main():
 
             else:
                 print("No targets")
-                sc.driveOpenLoop(np.array([0.,0.]))         # stop if no targets detected
+                #sc.driveOpenLoop(np.array([0.,0.]))         # stop if no targets detected
+                sc.driveOpenLoop(np.array([-2,2]))
 
                 
     except KeyboardInterrupt: # condition added to catch a "Ctrl-C" event and exit cleanly
