@@ -6,6 +6,7 @@ import L1_log as log
 from time import sleep
 import nodeRedShape
 import servo
+import L2_vector
 #import math
 
 # Define constants for the shapes
@@ -296,7 +297,7 @@ def execute_motions_cl(motions, pdt, pdc):
 def execute_motions(motions):
     motion_0()
     servo.servoInt()
-    servo.set_angle(-1)
+    servo.set_angle(-90)
     sleep(0.1)
     servo.servoInt()
     sleep(1)
@@ -307,13 +308,13 @@ def execute_motions(motions):
         #log.tmpFile(motion[1],"fVel") #Log forward velocity
         #log.tmpFile(motion[2],"aVel") #Log angular velocity
         sleep(motions[2])
-    servo.set_angle(0)
+    servo.set_angle(90)
     sleep(0.1)
     servo.servoInt()
     nodeRedShape.selected_shape = ""
 
 def motion_0():
-    servo.set_angle(2)
+    #servo.set_angle()
     sleep(0.1)
     servo.servoInt()
     ini_mot = [forward_velocity, 0, 1]
@@ -328,6 +329,26 @@ def motion_0():
     wheel_speeds = ik.getPdTargets(ini_mot[:2])
     sc.driveOpenLoop(wheel_speeds)
     sleep(ini_mot[2])
+
+def obsAvoid():
+    posData = L2_vector.getNearest()
+    cart = L2_vector.polar2cart(data[0],data[1])
+    if(cart[0] > 0.5):
+        motions_avoid = [
+        [0, quarter_turn, angular_rotation_duration],  # Motion 2: Rotate a quarter turn
+        [forward_velocity, 0, 3 * scale_factor],  # Motion 3: Move forward
+        [0, quarter_turn, angular_rotation_duration],  # Motion 4: Rotate a quarter turn
+        [forward_velocity, 0, forward_motion_duration],  # Motion 5: Move forward
+        [0, -quarter_turn, angular_rotation_duration],  # Motion 6: Rotate a quarter turn
+        [forward_velocity, 0, 3 * scale_factor],  # Motion 7: Move forward
+        [0, 0, 1] #Stop
+        ]
+        execute_motions(motions_avoid)
+    else:
+        pass
+
+def colorTrack():
+    L3
 
 def main():
     while(1):
