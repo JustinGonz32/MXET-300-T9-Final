@@ -7,6 +7,7 @@ import L2_vector as lidar
 import netifaces as ni
 from time import sleep
 from math import radians
+import sys
 
 class ColorTracker:
     def __init__(self):
@@ -22,7 +23,7 @@ class ColorTracker:
         self.fov = radians(60)  # Field of view per increment
         self.v1_min, self.v2_min, self.v3_min = 100, 115, 65
         self.v1_max, self.v2_max, self.v3_max = 115, 255, 255
-        self.target_width = 100
+        self.target_width = 125
         self.angle_margin = radians(20)
         self.width_margin = 10
 
@@ -79,13 +80,22 @@ class ColorTracker:
         angle_error = ((center_x - frame_center) / frame_center) * self.fov
         width_error = self.target_width - width
 
-        if abs(width_error) < self.width_margin and abs(angle_error) < self.angle_margin:
+        closePoint = lidar.getNearest()
+        cart = lidar.polar2cart(closePoint[0],closePoint[1])
+        e_width = self.target_width - width
+
+        if ((abs(width_error) < self.width_margin) and (abs(angle_error) < self.angle_margin)):
             sc.driveOpenLoop(np.array([0, 0]))
             print("Target aligned and approached.")
         else:
-            correction_speed = ik.getPdTargets(np.array([0.5 * (width_error / self.target_width), -angle_error]))
-            sc.driveOpenLoop(correction_speed)
-            print("Adjusting to target...")
+            if(cart[1] < (self.width_margin - 9.8)):
+                correction_speed = ik.getPdTargets(np.array([0.5 * (width_error / self.target_width), -angle_error]))
+                sc.driveOpenLoop(correction_speed)
+                print("Adjusting to target...")
+            else:
+                print("Close enuf")
+                print("cart1: ",cart[1])
+                sys.exit()
 
     def spin_360(self):
         print("Scanning for target...")

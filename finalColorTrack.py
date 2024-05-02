@@ -30,6 +30,7 @@ class ColorTracker:
         self.angle_margin = 0.2
         self.width_margin = 10
         self.camera = self.setup_camera()
+        
 
     def get_ip(self):
         for interface in ni.interfaces()[1:]:
@@ -127,7 +128,7 @@ class ColorTracker:
     def avoidTerror(self, cnts, frame_width)
         closePoint = lid.getNeartest()
         cart = lid.polar2cart(closePoint[0],closePoint[1])
-        e_width = self.target_width - contour_width
+        e_width = self.target_width - 
         if ((abs(cart[1]) >= 0.2) and (abs(e_width) < self.width_margin)):
             motions_avoid = [
                 [0, quarter_turn, angular_rotation_duration],  # Motion 1: Rotate a quarter turn
