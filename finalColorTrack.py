@@ -125,10 +125,10 @@ class ColorTracker:
         else:
             self.adjust_heading(angle)
 
-    def avoidTerror(self, cnts, frame_width)
+    def avoidTerror(self, cnts, frame_width):
         closePoint = lid.getNeartest()
         cart = lid.polar2cart(closePoint[0],closePoint[1])
-        e_width = self.target_width - 
+        e_width = self.target_width - frame_width
         if ((abs(cart[1]) >= 0.2) and (abs(e_width) < self.width_margin)):
             motions_avoid = [
                 [0, quarter_turn, angular_rotation_duration],  # Motion 1: Rotate a quarter turn
@@ -137,8 +137,7 @@ class ColorTracker:
                 ]
         execute_motions(motions_avoid)
         
-        else if (lidar sees object and  (contour_width + 3) <= ewidth):
-            move_to
+        #else if (lidar sees object and  (contour_width + 3) <= ewidth):
 
     def align_and_approach_target(self, angle, contour_width):
         e_width = self.target_width - contour_width

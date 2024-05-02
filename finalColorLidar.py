@@ -73,9 +73,10 @@ class ColorTracker:
         if cnts:
             c = max(cnts, key=cv2.contourArea)
             x, y, w, h = cv2.boundingRect(c)
-            self.align_and_approach_target(x + w // 2, w)
+            self.align_and_approach_target(x + w // 2, w, cnts)
+        print ("cnts:", cnts)
 
-    def align_and_approach_target(self, center_x, width):
+    def align_and_approach_target(self, center_x, width, cnts):
         frame_center = self.size_w // 2
         angle_error = ((center_x - frame_center) / frame_center) * self.fov
         width_error = self.target_width - width
@@ -84,18 +85,26 @@ class ColorTracker:
         cart = lidar.polar2cart(closePoint[0],closePoint[1])
         e_width = self.target_width - width
 
-        if ((abs(width_error) < self.width_margin) and (abs(angle_error) < self.angle_margin)):
-            sc.driveOpenLoop(np.array([0, 0]))
-            print("Target aligned and approached.")
+
+        if (closePoint[0] < .3):
+            sc.driveOpenLoop(np.array([5, -5]))
+            sleep(.5)
+            sc.driveOpenLoop(np.array([5, 5]))
+            sleep(.75)
+            sc.driveOpenLoop(np.array([-5, 5]))
+            sleep(.5)
+            print ("xxx")
+        if  ((closePoint[0] < .3) and (len(cnts) < 4)):
+            print("yyy")
+        
         else:
-            if(cart[1] < (self.width_margin - 9.8)):
-                correction_speed = ik.getPdTargets(np.array([0.5 * (width_error / self.target_width), -angle_error]))
-                sc.driveOpenLoop(correction_speed)
-                print("Adjusting to target...")
-            else:
-                print("Close enuf")
-                print("cart1: ",cart[1])
-                sys.exit()
+            ((abs(width_error) < self.width_margin) and (abs(angle_error) < self.angle_margin))
+            correction_speed = ik.getPdTargets(np.array([0.5 * (width_error / self.target_width), -angle_error]))
+            sc.driveOpenLoop(correction_speed)
+            print("Adjusting to target...")
+            print("Target aligned and approached.")
+            
+
 
     def spin_360(self):
         print("Scanning for target...")
