@@ -3,9 +3,17 @@ import numpy as np
 import L2_speed_control as sc
 import L2_inverse_kinematics as ik
 import L2_kinematics as kin
+import L2_vector as lid
+import shapeMotions
 import netifaces as ni
 from time import sleep, time  # Include 'time' here for use in timing operations
 from math import radians, pi
+
+pi = np.pi * 1.019108  # Define pi using numpy
+quarter_turn = 0.5 * pi  # Quarter turn in radians
+eigth_turn = 0.25 * pi  # Quarter turn in radians
+angular_rotation_duration = 1  # Constant angular rotation duration
+forward_velocity = 0.25  # Forward velocity (x dot) in m/s of SCUTTLE
 
 class ColorTracker:
     def __init__(self):
@@ -116,13 +124,28 @@ class ColorTracker:
         else:
             self.adjust_heading(angle)
 
+    def avoidTerror(self, cnts, frame_width)
+        closePoint = lid.getNeartest()
+        cart = lid.polar2cart(closePoint[0],closePoint[1])
+        e_width = self.target_width - contour_width
+        if ((abs(cart[1]) >= 0.2) and (abs(e_width) < self.width_margin)):
+            motions_avoid = [
+                [0, quarter_turn, angular_rotation_duration],  # Motion 1: Rotate a quarter turn
+                [forward_velocity, 0, 3 * 1],  # Motion 2: Move forward
+                [0, 0, 1] #Stop
+                ]
+        execute_motions(motions_avoid)
+        
+        else if (lidar sees object and  (contour_width + 3) <= ewidth):
+            move_to
+
     def align_and_approach_target(self, angle, contour_width):
         e_width = self.target_width - contour_width
         if abs(e_width) < self.width_margin:
             sc.driveOpenLoop(np.array([0., 0.]))
             print("Aligned! Width:", contour_width)
             return
-
+        
         fwd_effort = e_width / self.target_width
         wheel_speed = ik.getPdTargets(np.array([0.8 * fwd_effort, -0.5 * angle]))
         sc.driveOpenLoop(wheel_speed)
@@ -132,6 +155,16 @@ class ColorTracker:
         wheel_speed = ik.getPdTargets(np.array([0, -1.1 * angle]))
         sc.driveOpenLoop(wheel_speed)
         print(f"Adjusting heading. Angle: {angle}, Target L/R: {wheel_speed}")
+
+
+def execute_motions(motions):
+    for  count, motions in enumerate(motions):
+        print("Motion: ", count+1, "\t Chassis Forward Velocity (m/s): {:.2f} \t Chassis Angular Velocity (rad/s): {:.2f} \t Duration (sec): {:.2f}".format(motions[0], motions[1], motions[2]))
+        wheel_speeds = ik.getPdTargets(motions[:2])                  # take the forward speed(m/s) and turning speed(rad/s) and use inverse kinematics to deterimine wheel speeds
+        sc.driveOpenLoop(wheel_speeds)                              # take the calculated wheel speeds and use them to run the motors
+        #log.tmpFile(motion[1],"fVel") #Log forward velocity
+        #log.tmpFile(motion[2],"aVel") #Log angular velocity
+        sleep(motions[2])
 
 if __name__ == '__main__':
     tracker = ColorTracker()
