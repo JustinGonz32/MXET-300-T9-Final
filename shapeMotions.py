@@ -8,6 +8,7 @@ import nodeRedShape
 import servo
 import L2_vector
 import finalColorTrack
+import SimpleProg1
 #import math
 
 # Define constants for the shapes
@@ -210,7 +211,7 @@ def motion_0():
     #servo.set_angle()
     sleep(0.1)
     servo.servoInt()
-    ini_mot = [forward_velocity, 0, 1]
+    ini_mot = [-forward_velocity, 0, 3]
     wheel_speeds = ik.getPdTargets(ini_mot[:2])
     print("Wheel speeds: ", wheel_speeds)
     sc.driveOpenLoop(wheel_speeds)  # Use openLoop
@@ -240,19 +241,15 @@ def obsAvoid():
     else:
         pass
 
-def colorTrack():
-    tracker = finalColorTrack.ColorTracker()
-    tracker.track_color()
-
-def botOrgin():
-    while(finalColorTrack.)
 
 def main():
+    trackColor = False
     while(1):
         #shape = nodeRedShape.selected_shape
         servo.servoInt()
-        colorTrack()
-        obsAvoid()
+        if(trackColor == False):
+            SimpleProg1.main()
+            trackColor = True
         shape = input("Shape: ")
         mode = input("Closed or open loop: ")
         scale = 1
